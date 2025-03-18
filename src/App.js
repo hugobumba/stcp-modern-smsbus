@@ -15,7 +15,7 @@ function App() {
 
   const fetchHorarios = async (paragem) => {
     try {
-      const response = await fetch(`/horarios?paragem=${paragem}`);
+      const response = await fetch(`https://smsbus.netlify.app/horarios?paragem=${paragem}`);
       const data = await response.json();
       console.log(data);
       setHorarios(data);
