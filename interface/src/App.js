@@ -107,7 +107,7 @@ function App() {
         <div id="resultsTable" className="lg:w-2/3 sm:w-full bg-white p-4 mx-6 rounded-md shadow-md">
           <h2 className="text-lg font-bold mb-4">Resultados em tempo real</h2>
           <div className="space-y-4">
-            {horarios.length > 1 ? (
+            {horarios.length > 0 ? (
               horarios.map((horario, index) => (
                 <div key={index} className="flex justify-between items-center bg-gray-100 p-4 rounded-md shadow-sm">
                   <div className="flex items-center space-x-3">
