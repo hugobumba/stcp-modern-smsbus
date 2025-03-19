@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node api/index.js",
-    "build": ""
+    "build": "cd interface && npm run build"
   },
   "keywords": [],
   "author": "",
